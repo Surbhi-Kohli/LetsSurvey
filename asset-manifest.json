@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/LetsSurvey/static/css/main.7ecd9a48.chunk.css",
+    "main.js": "/LetsSurvey/static/js/main.ed8d7e3b.chunk.js",
+    "main.js.map": "/LetsSurvey/static/js/main.ed8d7e3b.chunk.js.map",
+    "runtime-main.js": "/LetsSurvey/static/js/runtime-main.04d1c63f.js",
+    "runtime-main.js.map": "/LetsSurvey/static/js/runtime-main.04d1c63f.js.map",
+    "static/css/2.8c5002dc.chunk.css": "/LetsSurvey/static/css/2.8c5002dc.chunk.css",
+    "static/js/2.7073b50b.chunk.js": "/LetsSurvey/static/js/2.7073b50b.chunk.js",
+    "static/js/2.7073b50b.chunk.js.map": "/LetsSurvey/static/js/2.7073b50b.chunk.js.map",
+    "index.html": "/LetsSurvey/index.html",
+    "precache-manifest.5d6ca0e44dc8b071ca1ab610f87fc60e.js": "/LetsSurvey/precache-manifest.5d6ca0e44dc8b071ca1ab610f87fc60e.js",
+    "service-worker.js": "/LetsSurvey/service-worker.js",
+    "static/css/2.8c5002dc.chunk.css.map": "/LetsSurvey/static/css/2.8c5002dc.chunk.css.map",
+    "static/css/main.7ecd9a48.chunk.css.map": "/LetsSurvey/static/css/main.7ecd9a48.chunk.css.map",
+    "static/js/2.7073b50b.chunk.js.LICENSE.txt": "/LetsSurvey/static/js/2.7073b50b.chunk.js.LICENSE.txt",
+    "static/media/HorizontalGraph.module.css": "/LetsSurvey/static/media/banner2.1f314997.jpg",
+    "static/media/semantic.min.css": "/LetsSurvey/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04d1c63f.js",
+    "static/css/2.8c5002dc.chunk.css",
+    "static/js/2.7073b50b.chunk.js",
+    "static/css/main.7ecd9a48.chunk.css",
+    "static/js/main.ed8d7e3b.chunk.js"
+  ]
+}
