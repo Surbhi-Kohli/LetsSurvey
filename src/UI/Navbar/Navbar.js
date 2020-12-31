@@ -12,10 +12,10 @@ function Navbar(props) {
             ></img></div>
     <div className="ui pointing menu">
    
-      <NavLink to="/" exact className="item">
+      <NavLink to="/LetsSurvey" exact className="item">
         Create Survey
       </NavLink>
-      <NavLink to="/AllSurveys" className="item">
+      <NavLink to="/LetsSurvey/AllSurveys" className="item">
         See all Surveys
       </NavLink>
     </div>
