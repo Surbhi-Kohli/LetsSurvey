@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react";
-import { Card,Grid } from 'semantic-ui-react';
+import { Card,Dimmer, Loader} from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 import firebase from "../../firestore";
 import Graph from "../../UI/HorizontalGraph";
@@ -23,13 +23,18 @@ function AllSurveys(props){
 
     })
   },[])
-return(
-    <div className={classes.survey}>
-    {  
-        surveys.map(survey=><NavLink to={`/LetsSurvey/AllSurveys/Survey/`+survey.path}><div  style={{'width':'650px','margin':'5px'}}><Card style={{'width':'90%','margin':'auto'}}><Graph options={survey.value.options} question={survey.value.question}></Graph></Card></div></NavLink>)
-    }
-    </div>
-)
+  let out=(
+    <Loader />
+  );
+  if(surveys.length>0)
+  {
+    out=(<div className={classes.survey}>
+      {  
+          surveys.map(survey=><NavLink to={`/LetsSurvey/AllSurveys/Survey/`+survey.path}><div className={classes.adjustCard}  ><Card style={{'width':'90%','margin':'auto'}}><Graph options={survey.value.options} question={survey.value.question}></Graph></Card></div></NavLink>)
+      }
+      </div>)
+  }
+return out;
     
 }
 export default AllSurveys;
