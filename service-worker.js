@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LetsSurvey/precache-manifest.561cd61c0173a5d18a9069db34c14cbb.js"
+  "/LetsSurvey/precache-manifest.7335bd8c491345d762042ecc772395d3.js"
 );
 
 self.addEventListener('message', (event) => {
