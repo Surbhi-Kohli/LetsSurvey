@@ -1,9 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is published at https://Surbhi-Kohli.github.io/LetsSurvey/
 
+
+![surveyImage](./Survey1.PNG)
+
+![surveyImage](./Survey2.PNG)
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install` 
 ### `npm start`
 
 Runs the app in the development mode.<br />
