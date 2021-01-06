@@ -109,7 +109,7 @@ function MySurveyForm(){
     if(survey.options)
     {  
         return ( <div className={classes.mySurvey}>
-                 <div><input readOnly type="text" value={window.location.href} style={{width:"500px"}} id="myInput"/>
+                 <div><input readOnly type="text" value={window.location.href} className={classes.clipBoard} id="myInput"/>
                  <button onClick={copyToClipboard}>Copy text</button></div>
                     {
                         !found?( <div className={classes.form}>
