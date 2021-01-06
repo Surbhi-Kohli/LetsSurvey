@@ -3,7 +3,11 @@ This application is published at https://Surbhi-Kohli.github.io/LetsSurvey/
 
 ![surveyImage](./Survey1.PNG)
 
+![surveyImage](./Survey3.PNG)
+
 ![surveyImage](./Survey2.PNG)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
