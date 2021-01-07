@@ -45,6 +45,7 @@ class CreatePoll extends Component {
     if (this.props.surveyPath) {
       console.log("in this if condition");
       console.log(this.props.surveyPath);
+      console.log(this.props.match.url);
       return <Redirect to={{pathname:`${this.props.match.url}AllSurveys/${this.props.surveyPath}`}}/>;
     }
     let form = (
