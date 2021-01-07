@@ -15,15 +15,15 @@ function App() {
       <Navbar/>
     <Switch>
    
-    <Route path="/LetsSurvey/AllSurveys/Survey/:id" exact >
+    <Route path="/AllSurveys/Survey/:id" exact >
       <SurveyForm/>
     </Route>
 
-     <Route path="/LetsSurvey/AllSurveys" exact >
+     <Route path="/AllSurveys" exact >
       <AllSurveys/>
     </Route>
     
-    <Route exact path="/LetsSurvey">
+    <Route exact path="/">
         <div className="App">
         <CreatePoll/>
         </div>

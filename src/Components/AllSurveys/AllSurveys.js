@@ -30,7 +30,7 @@ function AllSurveys(props){
   {
     out=(<div className={classes.survey}>
       {  
-          surveys.map(survey=><NavLink to={`/LetsSurvey/AllSurveys/Survey/`+survey.path}><div className={classes.adjustCard}  ><Card style={{'width':'90%','margin':'auto'}}><Graph options={survey.value.options} question={survey.value.question}></Graph></Card></div></NavLink>)
+          surveys.map(survey=><NavLink to={`/AllSurveys/Survey/`+survey.path}><div className={classes.adjustCard}  ><Card style={{'width':'90%','margin':'auto'}}><Graph options={survey.value.options} question={survey.value.question}></Graph></Card></div></NavLink>)
       }
       </div>)
   }
