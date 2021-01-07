@@ -48,7 +48,7 @@ const HorizontalGraph=(props)=>{
         <div style={{'margin':'5px'}}>
             
                <div key="1" style={{'width':'80%','margin':'auto'}}>
-               <div className={classes.cardTop}><h4>{props.question}</h4> <h4>Total Votes:7</h4></div>
+               <div className={classes.cardTop}><h4>{props.question}</h4> <h4>Total Votes:{totalVotes}</h4></div>
               
                {graphs?graphs.map(gp=>(<div style={{'height':'100px'}}>{gp}</div>)):''}
              </div>
